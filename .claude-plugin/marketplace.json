@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "atlas-video",
+  "owner": {
+    "name": "ZoCCo"
+  },
+  "description": "Four independent dials — compression (low/high), rigour (ask), check and silent — plus two subagents that keep searches and pages out of your conversation. Compresses without losing a fact, and refuses to start building before the goal is clear. This variant adds video made on this machine: written with HyperFrames, Remotion or Manim, or recorded from the screen with a camera that follows the cursor.",
+  "plugins": [
+    {
+      "name": "atlas-video",
+      "source": "./",
+      "version": "0.1.1",
+      "description": "Four independent dials — compression (low/high), rigour (ask), check and silent — plus two subagents that keep searches and pages out of your conversation. Compresses without losing a fact, and refuses to start building before the goal is clear. This variant adds video made on this machine: written with HyperFrames, Remotion or Manim, or recorded from the screen with a camera that follows the cursor."
+    }
+  ]
+}
