@@ -8,6 +8,8 @@
 /plugin install atlas-video@atlas
 ```
 
+It needs `node` on the PATH and Claude Code 2.1.139 or later.
+
 Then, on Windows with `ffmpeg` on the PATH:
 
 ```
