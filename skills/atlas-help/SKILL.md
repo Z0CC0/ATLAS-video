@@ -74,7 +74,7 @@ Two more commands, for video made on this machine.
 
 | command | what it does | files behind it | worth knowing |
 |---|---|---|---|
-| `atlas-media` | video with the best framework installed (HyperFrames first), slides, recorded demos, with local tools | 12 | quality before tokens for a video; a legibility gate on every text; no generation service, no upload |
+| `atlas-media` | video with THE STUDIO, the editor that comes with the build on Windows, or the best framework installed; slides, recorded demos, with local tools | 17 | quality before tokens for a video; a legibility gate on every text; no generation service, no upload |
 | `atlas-clip` | records the screen and renders a video whose camera follows the cursor, with a zoom where you stop or type | 0 | Windows only, needs `ffmpeg`. Keys are counted, never identified |
 
 Generating video from a prompt is not here: see `connections.md` in this build's README for what can be connected and at what cost.
