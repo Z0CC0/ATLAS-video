@@ -1,7 +1,32 @@
-<p align="center"><img src="assets/banner.svg" alt="ATLAS video: video made on your machine" width="860"></p>
-<p align="center"><img src="assets/stats.svg" alt="8 commands, nothing uploaded" width="860"></p>
+<p align="center">
+  <img src="assets/cover.png" alt="THE STUDIO's window twice, at an angle: in front the montage page with a film on its timeline, behind it the effects page with a composition open; on the left the ATLAS video mark, a red camera, the name ATLAS video and three numbers: 201 of 216 outside checks pass, 20 kinds of piece, 2 project files you can open" width="100%">
+</p>
+
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/atlas-video-sting-black.gif">
+    <img src="assets/atlas-video-sting.gif" alt="ATLAS video" width="420">
+  </picture>
+</h1>
+
+<p align="center">
+  A Claude Code plugin that records your screen and makes videos, with nothing uploaded.<br>
+  On Windows it drives THE STUDIO, a video editor that comes with it.
+</p>
+
+<p align="center">
+  <img alt="version 0.1.3" src="https://img.shields.io/badge/version-0.1.3-ff1f1f?style=flat-square">
+  <img alt="THE STUDIO: Windows x64" src="https://img.shields.io/badge/THE%20STUDIO-Windows%20x64-000?style=flat-square">
+  <img alt="outside checks: 201 of 216 pass" src="https://img.shields.io/badge/outside%20checks-201%20of%20216%20pass-000?style=flat-square">
+</p>
+
+---
 
 **Ask your coding agent for a demo video, and get one, with nothing uploaded.** Everything in [`atlas`](https://github.com/Z0CC0/ATLAS), plus `atlas clip`, which records your screen with a camera that follows the cursor and zooms where you stop or type, and `atlas media`, which makes the video itself: on Windows with THE STUDIO, an editor it drives by commands while you watch if you want, elsewhere with the frameworks you have installed.
+
+<p align="center"><img src="assets/studio-window.png" alt="THE STUDIO window with a project open: an animated map of an invented island in the viewer, its four layers on the timeline below, and a side bar with the pages for montage, effects, notes and export" width="860"></p>
+
+<p align="center"><sub>THE STUDIO with one of its test pieces open. The side bar names its pages in Italian.</sub></p>
 
 ```
 /plugin marketplace add Z0CC0/ATLAS
@@ -22,7 +47,13 @@ It tells you what it will capture and waits for a yes. For a video that is made,
 atlas media, a 30-second video that explains this project. Open the app so I can watch
 ```
 
+<p align="center"><img src="assets/made-with-it.gif" alt="A loop of eight test pieces made with THE STUDIO, two seconds each: kinetic type, a bar chart, a function graph, a doodle of a cup, a cartoon character, a paper collage, an animated map and the ATLAS mark being cut, a hole and then a slot, before its name" width="720"></p>
+
+<p align="center"><sub>Two seconds from each of eight of the twenty ten-second test pieces.</sub></p>
+
 The first time, it offers to download THE STUDIO (about 117 MB, Windows x64, attached to the release of this repository) and waits for a yes. Leave a note on the timeline and say "resolve the notes" to have it changed. Install one ATLAS build: two side by side inject the rules twice. For coding and the memory too, install [`atlas-max`](https://github.com/Z0CC0/ATLAS-max) instead.
+
+<p align="center"><img src="assets/how-it-works.svg" alt="How atlas media works: you ask in the chat, commands drive THE STUDIO without a window or in its window while you watch, you leave notes on the timeline, the notes are resolved, and you get the film and two project files you can open" width="860"></p>
 
 ## What it adds
 
@@ -131,6 +162,8 @@ Figures from 2026-11-02.
 - **Generating from a prompt:** WanGP does it, and we do not.
 
 **Not proved:** THE STUDIO made a 49-second presentation with voice, music and subtitles, and 20 ten-second pieces. Their closeness to a reference was judged on stills by the agents that made them, and the package was never run on a second machine. 14 of 216 outside checks fail, on three known defects. With HyperFrames, `atlas media` has made one real short, and it was not judged final. Manim, Remotion and Blender were never run through it. `atlas clip` was tried on real recordings by its author, not across many machines.
+
+<p align="center"><img src="assets/twenty-kinds.png" alt="One frame from each of the twenty ten-second test pieces made with THE STUDIO, in a grid of four by five, each labelled with its kind: kinetic type, stat, bar chart, explainer graph, whiteboard, doodle, cartoon, collage, lower third, UI demo, transitions and grade, 3D camera, captions and voice, beat cut, vertical short, look grade, logo sting, animated map, headline card, slides" width="860"></p>
 
 ## Connections
 
